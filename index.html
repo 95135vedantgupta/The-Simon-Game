@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>THE SIMON GAME ;)</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&display=swap" rel="stylesheet">
+</head>
+
+<body id="body_id">
+  <h1 id="level-title">Press a key to start.</h1>
+  <a href="https://www.ultraboardgames.com/simon/game-rules.php" style="color:#FEF2BF ;text-decoration: none;font-family: 'Fontdiner Swanky', cursive;">CLICK in case you are not familiar with the rules.</a>
+
+  <div class="splitscreen">
+    <div class="left">
+      <table>
+        <tr>
+          <td><button type="button" id="green" class="btn green"></button></td>
+          <td><button type="button" id="red" class="btn red"></button></td>
+        </tr>
+        <tr>
+          <td><button type="button" id="yellow" class="btn yellow"></button></td>
+          <td><button type="button" id="blue" class="btn blue"></button></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="right">
+      <h2>Highest Score<p id="max_score"> 0 </p></h2>
+    </div>
+</div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="game.js"></script>
+</body>
+
+</html>

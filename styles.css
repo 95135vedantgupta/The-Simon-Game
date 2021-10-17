@@ -1,0 +1,68 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+table {
+  margin-top: 1.4em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2{
+  margin-right: 4em;
+  margin-top: 7em;
+  color:#0F00FF; font-family: 'Fontdiner Swanky', cursive;
+}
+
+#level-title {
+  font-family: 'Fontdiner Swanky', cursive;
+  font-size: 3rem;
+  margin-top: 4%;
+  margin-bottom: 2%;
+  color: #FEF2BF;
+}
+
+.splitscreen {
+    display:flex;
+}
+.splitscreen .left {
+    flex: 1.5;
+}
+.splitscreen .right {
+    flex: 1;
+}
+
+.btn {
+  margin: 20px;
+  display: inline-block;
+  height: 12.5em;
+  width: 12.5em;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
